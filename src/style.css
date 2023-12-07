@@ -1,0 +1,114 @@
+.title {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 2.2%;
+  background-color: #2f7139;
+  color: #fff;
+  padding: 0.8vw;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.title-container {
+  text-align: center;
+}
+
+#search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4vw;
+}
+
+#country-search {
+  padding: 10px;
+  font-size: 16px;
+  align-items: center;
+  border-radius: 120px;
+}
+
+.button-search,
+.button-random {
+  padding: 10px 15px;
+  margin-left: 0.2%;
+  font-size: 100%;
+  cursor: pointer;
+  border-radius: 120px;
+  background: linear-gradient(to right, #a7adae, rgb(221, 215, 215));
+  border: none;
+  outline: none;
+}
+
+.country-info {
+  text-align: center;
+  padding-top: 4vw;
+}
+
+.errorline {
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 4vw;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.errorline {
+  color: rgb(0, 0, 0);
+}
+
+.error-container img {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+  background-attachment: fixed;
+}
+
+#results-container {
+  position: relative;
+  z-index: 1; /* Stellt sicher, dass der Container über dem Hintergrundbild liegt */
+  background-color: rgba(235, 235, 235, 0.7);
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  max-width: calc(35% - 100px);
+}
+
+.body {
+  position: relative;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url("../public/assets/img/mapBackground.png");
+  background-size: cover;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  bottom: 20px;
+  background-color: #2f7139;
+  padding: 10px;
+  box-sizing: border-box;
+}
